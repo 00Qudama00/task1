@@ -40,7 +40,11 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route("/", methods=["GET"])
 def index():
+<<<<<<< HEAD
     return "Hello From Feature A"
+=======
+    return "Hello from feature B"
+>>>>>>> featureB
 
 @app.route("/predict", methods=["POST"])
 def predict():
